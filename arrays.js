@@ -42,7 +42,7 @@ function accessElementInArray(array, index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   let meal = [1, 2, 3]
-  let meal = meal.shift()
+  meal.shift()
   return meal
 }
 
