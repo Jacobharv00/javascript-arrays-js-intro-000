@@ -41,7 +41,7 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  let poop = [1, 2, 3]
+  let poop = [element, element, element]
   poop.shift()
   return poop
 }
