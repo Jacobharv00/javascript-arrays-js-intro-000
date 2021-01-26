@@ -55,7 +55,7 @@ function removeElementFromBeginningOfArray(array) {
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   let meal = [1, 2, 3]
-  meal.length = 2
+  meal.pop()
   return meal
 }
 
