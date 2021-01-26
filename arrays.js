@@ -48,7 +48,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
 
 function removeElementFromBeginningOfArray(array) {
-  let taco = ['cheese', 'meat', 'shell']
+  let taco = [element, element, element]
   taco.slice(1)
   return taco
 }
