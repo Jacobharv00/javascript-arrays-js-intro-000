@@ -52,4 +52,3 @@ function removeElementFromBeginningOfArray(array) {
   taco.slice(1)
   return taco
 }
-
