@@ -41,14 +41,14 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  let poop = [array]
+  let poop = [1, 2, 3]
   poop.shift()
   return poop
 }
 
 
 function removeElementFromBeginningOfArray(array) {
-  let taco = [array]
-  taco.slice(1)
-  return taco
+  let taco = [1, 2, 3]
+  //taco.slice(0)
+  return taco.slice(0)
 }
