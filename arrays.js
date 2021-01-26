@@ -45,3 +45,11 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   poop.shift()
   return poop
 }
+
+
+function removeElementFromBeginningOfArray(array) {
+  let taco = ['cheese', 'meat', 'shell']
+  taco.slice(1)
+  return taco
+}
+
