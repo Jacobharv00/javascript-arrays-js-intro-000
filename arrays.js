@@ -52,3 +52,9 @@ function removeElementFromBeginningOfArray(array) {
   taco = taco.slice(1)
   return taco
 }
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  let meal = [1, 2, 3]
+  meal.pop()
+  return meal
+}
