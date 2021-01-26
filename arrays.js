@@ -61,6 +61,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 function removeElementFromEndOfArray(array) {
   let taco = [1, 2, 3]
-  taco.slice(0, taco.length - 1)
+  taco = taco.slice(0, taco.length - 1)
   return taco
 }
