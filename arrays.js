@@ -42,7 +42,7 @@ function accessElementInArray(array, index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   let meal = [1, 2, 3]
-  meal.shift(array)
+  meal.shift()
   return meal
 }
 
@@ -55,7 +55,7 @@ function removeElementFromBeginningOfArray(array) {
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   let meal = [1, 2, 3]
-  meal.pop(meal)
+  meal.pop()
   return meal
 }
 
