@@ -43,13 +43,12 @@ function accessElementInArray(array, index) {
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   let meal = [1, 2, 3]
   meal.shift()
-  console.log(destructivelyRemoveElementFromBeginningOfArray)
   return meal
 }
 
 
 function removeElementFromBeginningOfArray(array) {
   let taco = [1, 2, 3]
-  taco.slice()
+  taco = taco.slice(1)
   return taco
 }
