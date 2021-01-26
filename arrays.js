@@ -41,7 +41,7 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  let arrayOk = [1, 2]
+  let arrayOk = ['wow', 'cool', 'awesome']
   arrayOk.shift()
   return arrayOk
 }
